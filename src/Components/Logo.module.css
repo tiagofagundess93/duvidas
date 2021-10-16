@@ -1,0 +1,49 @@
+
+.logo {
+    display: flex;
+}
+.logo div {
+    width: 50%;
+    height: auto;    
+    background-color:rgb(3, 3, 27);
+    margin-top: 1.15px;    
+    
+}
+
+.logo h1 { 
+    padding-right: 1.5em;
+    padding-left: 1.5em;   
+    color: white;
+    font-size:300%;       
+}
+
+.logo h2 {
+    padding-right: 3.5em;
+    padding-left: 3em;
+    color:white;
+}
+
+.logo button a {
+    text-decoration: none;
+    outline: none;
+    color: rgb(172, 54, 0); 
+    color:white;
+}
+.logo button {
+    background-color: rgb(9, 1, 51);
+    
+    border-radius: 55px;
+    width:17%;
+    font-size: 128%;
+    margin-top: 2em;
+    margin-left: 3em;  
+    border: 0.05px solid white;
+}
+.logo button:hover {
+    background-color:rgb(172, 54, 0);
+    color:white;
+}
+.logo button a:hover {   
+    background-color:rgb(172, 54, 0);
+    color:white;
+}

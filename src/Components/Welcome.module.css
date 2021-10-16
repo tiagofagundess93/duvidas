@@ -1,0 +1,51 @@
+.welcome{
+    display:flex;
+}
+.welcome h1 {
+    color:black;
+    padding-top: 1.5em;
+    padding-left:2em;
+    font-size: 200%;
+    font-style: oblique;
+    
+}
+
+.welcome h2  {
+    display: flex;
+    text-align: left;
+    width:65%;
+    padding-left: 2em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    font-size: 136%;
+    font-style:italic;
+}
+
+.welcome img {
+    display: flex;
+    padding:3em;
+}
+
+.welcome button {
+    background-color: rgb(172, 54, 0);     
+    border-radius: 55px;
+    width:20%;
+    height: 10%;
+    font-size: 128%;
+    margin-top: 2em;
+    margin-left: 5em;  
+}
+.welcome button a {       
+    text-decoration: none;
+    outline: none;  
+    color:white;
+}
+.welcome button a:hover {   
+    color:chocolate; 
+    background-color: white;;
+}
+.welcome button:hover {  
+    color:chocolate;  
+    background-color:white;    
+}
+
